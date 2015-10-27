@@ -1,0 +1,61 @@
+sidebar#action {
+  float: left;
+  @include span-columns(3);
+
+  div.action {
+    width: 5.063em;
+    height: 5.063em;
+    background: white;
+    position: relative; 
+    box-shadow: 0px 0px 9px -1px #B5AFB1;
+    text-align: center;
+    padding-top: 15%;
+
+    i.fa {
+      font-size: $base-font-size * 1.5;
+      color: $green;
+    }
+  }
+
+  a { 
+    font-size: 14px;
+    color: $blue;
+    text-decoration: underline;
+  }
+}
+
+div#projects {
+
+  .project-card {
+    @include span-columns(3);
+    @include omega(3n);
+    margin-bottom: em(20);
+    padding: em(15);
+    height: em(235);
+    background-color: white;
+    box-shadow: 0px 0px 9px -1px #B5AFB1;
+
+    h3 {
+      font-size: 19px;
+    }
+
+    p.summary {
+      color: $dark-beige;
+      font-size: $base-font-size;
+    }
+
+    p.last-updated {
+      font-size: 14px;
+    }
+
+    img {
+      border-radius: 50%;
+    }
+
+    .people {
+      margin-bottom: 0;
+      margin-top: em(36);
+    }
+  }
+}
+

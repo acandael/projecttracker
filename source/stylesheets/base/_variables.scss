@@ -1,5 +1,5 @@
 // Typography
-$base-font-family: $helvetica;
+$base-font-family: "proxima-nova", sans-serif;
 $heading-font-family: $base-font-family;
 
 // Font Sizes
@@ -16,10 +16,14 @@ $small-spacing: $base-spacing / 2;
 $base-z-index: 0;
 
 // Colors
-$blue: #477dca;
+$blue: #1C5C76;
 $dark-gray: #333;
 $medium-gray: #999;
 $light-gray: #ddd;
+$beige: #f5efe6;
+$dark-beige: #AA9C84;
+$dark-brown: #7D7A75;
+$green: #7DC045;
 
 // Font Colors
 $base-font-color: $dark-gray;

@@ -1,0 +1,32 @@
+header {
+  @include clearfix;
+  padding-top: 1.5em;
+
+  #logo {
+    float: left;
+    h1 {
+      font-size: $base-font-size * 1.5;
+    }
+  }
+  
+  #main-navigation {
+    float: right;
+  }
+
+  ul.navigation {
+    li {
+      float: left;
+      margin-right: 1em;
+
+      a {
+        font-size: 14px;
+        color: $dark-brown;
+
+        &:hover {
+          color: $blue;
+        }
+      }
+    }
+  }
+
+}
