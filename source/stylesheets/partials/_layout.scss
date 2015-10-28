@@ -10,3 +10,7 @@ body {
 #workspace {
   @include outer-container;
 }
+
+a {
+  color: $blue;
+}

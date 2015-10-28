@@ -1,0 +1,102 @@
+.sheet {
+  background-color: white;
+  box-shadow: 0px 0px 9px -1px #B5AFB1;
+  padding: 2.25em;
+
+  h2 {
+    color: $burgundi;
+    font-weight: 400;
+    font-size: 18px;
+  }
+}
+
+.breadcrumb {
+  li {
+    float: left;
+    margin-right: 0.667em;
+    font-size: 14px;
+    &:first-child:after {
+      content: ">";
+      margin-left: 0.667em;
+    }
+  }
+}
+
+#action {
+  float: right;
+  li {
+    float: left;
+    margin-right: 1em;
+  }
+  a {
+    text-decoration: underline;
+  }
+}
+
+header.project {
+  margin-top: 2.25em;
+  h1 {
+    font-size: $base-font-size * 1.5;
+    margin-bottom: 0.296em;
+  }
+  p.summary {
+    color: $dark-beige;
+  }
+}
+
+#data {
+  @include clearfix;
+  margin-bottom: 2.25em;
+  border-top: 1px solid $beige;
+  border-bottom: 1px solid $beige;
+  
+
+  li {
+    float: left;
+    margin-right: 1em;
+    padding-top: 0.444em;
+    padding-bottom: 0.444em;
+
+    a {
+      font-weight: 600;
+    }
+  }
+}
+
+#project-details {
+  .description {
+    @include span-columns(6);
+  }
+
+}
+
+.people {
+  @include clearfix;
+  margin-top: 2.25em;
+  margin-bottom: 2.25em;
+  .member {
+    clear: both;
+    img { 
+      float: left; 
+      margin-right: 1em;
+      border-radius: 50%;
+    }
+    p { 
+      float: left; 
+      padding-top: 0.444em;
+    }
+  }
+}
+
+.features {
+  margin-bottom: 2.25em;
+}
+
+.files {
+  li:before {    
+  font-family: 'FontAwesome';
+  content: '\f019';
+  margin:0 5px 0 0;
+  color: #000;
+  }
+}
