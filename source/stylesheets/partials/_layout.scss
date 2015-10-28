@@ -12,7 +12,7 @@ body {
     float: left;
     margin-right: 0.667em;
     font-size: 14px;
-    &:first-child:after {
+    &:not(:last-child):after {
       content: ">";
       margin-left: 0.667em;
     }
