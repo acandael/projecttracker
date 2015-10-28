@@ -100,3 +100,11 @@ header.project {
   color: #000;
   }
 }
+
+table {
+  th {
+    color: $dark-beige;
+    font-size: small;
+    font-weight: 400;
+  }
+}
